@@ -50,6 +50,6 @@ eval_loader = get_data_loader(config, dataset_dict['eval'], config.eval_batch_si
 
 algorithm.model = algorithm.model.cuda()
 algorithm.train()
-algorithm.evakl()
+algorithm.evaluate()
 
 
